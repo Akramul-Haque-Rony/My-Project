@@ -1,0 +1,77 @@
+.widget-content-area {
+    padding: 10px;
+}
+
+.layout-top-spacing {
+    margin-top: 10px;
+}
+
+.layout-spacing {
+    padding-bottom: 8px;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.capitalizeInput {
+    text-transform: uppercase !important;
+}
+
+.card .card-body {
+    padding: 12px 20px;
+}
+
+.widget-content-area {
+    padding: 10px;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.card-title {
+    margin-top: 8px
+}
+
+th {
+    text-transform: capitalize;
+}
+
+.table thead tr th,
+.table:not(.dataTable).table-bordered thead tr th {
+    background: #63e080;
+    color: black;
+    border-bottom: 1px solid;
+    border-radius: 0 !important;
+    font-weight: bolder;
+}
+
+.table:not(.dataTable).table-bordered>tbody>tr td {
+    border: 1px solid #ebedf2;
+    padding: 5px 8px 5px 8px;
+}
+
+body {
+    background: #f2f1f4;
+}
+
+.page-meta {
+    margin-top: 20px;
+}
+
+@media print {
+    .layout-boxed,
+    .ShowOnPrint img,
+    .ShowOnPrint table {
+        background: #fff;
+    }
+}

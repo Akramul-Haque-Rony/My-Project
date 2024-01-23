@@ -1,0 +1,21 @@
+.widget-content-area {
+    padding: 10px;  
+}
+.layout-top-spacing {
+    margin-top: 10px;
+}
+.layout-spacing {
+    padding-bottom: 8px;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.capitalizeInput {
+    text-transform: uppercase !important;
+}
