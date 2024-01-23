@@ -19,6 +19,7 @@ class Product extends Model
      *
      * @return response()
      */
+    // Eloquent Boot Model
     public static function boot() {
   
         parent::boot();
