@@ -30,7 +30,7 @@ class CategoryController extends Controller
         return view('category.category',compact('data'));
     }
  
- 
+    // 
     public function store(Request $request)
     {
         $request->validate([
